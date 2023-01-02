@@ -13,10 +13,13 @@ namespace Finance_Automator
             Expenses expenses = new Expenses();
             Revenue revenue = new Revenue();
 
+
+            // Prompt for user... 
+            /*Console.WriteLine("Enter a filepath please: ");
+            string filename = Console.ReadLine();*/
+
             // Parsing transactions file... 
-            Console.
             string filename = @"C:\Users\nickg\source\repos\Finance Automator\Transactions_02-01-2023.csv";
-            decimal total = 0;
             using (StreamReader sr = new StreamReader(filename))
             {
                 try
