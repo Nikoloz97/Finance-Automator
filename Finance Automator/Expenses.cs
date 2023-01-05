@@ -11,5 +11,6 @@ namespace Finance_Automator
         public decimal Fun { get; set;} = 0;
         public decimal Subs { get; set; } = 0;
         public decimal Misc { get; set; } = 0;
+        public string Month { get; set; } = "January";
     }
 }
